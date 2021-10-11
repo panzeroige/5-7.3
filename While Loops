@@ -69,10 +69,4 @@ if count>3:
 else:
   print("Well done")
 
-"""
-#Q13
-number = 1
-while number<71:
-  print(number*number)
-  number+=1
-"""
+
