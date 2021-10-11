@@ -68,44 +68,6 @@ if count>3:
   print("Too many wrong attempts")
 else:
   print("Well done")
-"""
-
-"""
-#Q8
-answer=input("Enter something: ")
-while answer != "bye":
-  print(answer)
-  answer=input("Enter something: ")
-print("bye")
-"""
-
-"""
-#Q11
-health = 10
-trolls = 0 
-damage = 3
-#changed != to >=
-while health >=0:
-  trolls = trolls+1
-  health = health-damage
-  print('Your hero swings and defeats an evil troll, but takes', damage, 'damage points')
-print('Your hero fought valiantly and defeated', trolls, 'trolls')
-print('But alas your hero is no more')
-"""
-
-"""
-#Q12 a and b
-count =1
-answer=input("Enter Password: ")
-while answer != "apple" and count<3:
-  print("Wrong entry, Try Again!")
-  count=count+1
-  answer=input("Enter Password: ")
-if answer!= "apple" and count==3:
-    print("Too many wrong attempts")
-else:
-    print("Accepted")
-"""
 
 """
 #Q13
@@ -113,21 +75,4 @@ number = 1
 while number<71:
   print(number*number)
   number+=1
-"""
-
-"""
-#Q14
-x = random.randint(1,100)
-count=1
-answer=int(input("I am thinking of a number between 1 - 100. \nCan you guess what it is? "))
-while answer!= x:
-
-  if answer>x:
-    print("No, the number i am thinking of less than",answer)
-  else:
-    print("No, the number i am looking for is more than",answer)
-  count +=1
-  answer = int(input("Can you guess what it is? "))
-
-print("well done the answer was",x,", it took you",count,"trys")  
 """
